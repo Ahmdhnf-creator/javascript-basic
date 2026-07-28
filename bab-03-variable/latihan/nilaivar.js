@@ -6,6 +6,7 @@
 //variabel
 let saldoAwal = 100000
 let saldoTambahan = 50000
+let saldoAkhir = saldoAwal + saldoTambahan
 
 //console.log
 console.log(saldoAwal);
