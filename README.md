@@ -97,7 +97,7 @@ Klik tombol **Fork** pada repository ini.
 ## 2. Clone Repository
 
 ```bash
-git clone https://github.com/arifwardan/javascript-basic.git
+git clone https://github.com/USERNAME/javascript-basic.git
 ```
 
 Ganti `USERNAME` dengan username GitHub milikmu.
