@@ -1,6 +1,6 @@
 function tampilkanProduk (namaProduk,harga,stok){
     console.log("Produk :",namaProduk)
-    console.log("Harga  :",harga)
+    console.log("Harga  : Rp.",harga)
     console.log("Stok   :",stok)
 }
 
