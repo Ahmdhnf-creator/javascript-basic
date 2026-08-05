@@ -14,7 +14,7 @@ function bagi(a,b){
     return a/b;
 }
 
-console.log(tambah(1,2))
-console.log(kurang(6,5))
-console.log(kali(2,4))
-console.log(bagi(4,2))
+console.log("Tambah :",tambah(1,2))
+console.log("kurang :",kurang(6,5))
+console.log("kali   :",kali(2,4))
+console.log("bagi   :",bagi(4,2))
