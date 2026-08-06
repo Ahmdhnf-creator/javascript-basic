@@ -9,8 +9,9 @@ const playlist = {
     },
     tampilkanPlaylist(){
         console.log("============= MY PLAYLIST ==============")
-        console.log("Nama Playlist  :",this.namaPlaylist)
-        console.log("Lagu           :",this.lagu)
+        for (let i = 0; i < this.lagu.length; i++){
+            console.log(i + 1 + ".", this.lagu[i])
+        }
     }
 }
 
