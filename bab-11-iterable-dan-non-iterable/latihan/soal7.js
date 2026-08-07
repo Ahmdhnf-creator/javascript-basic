@@ -6,4 +6,4 @@ const laptop = {
 
 for (let penyebut in laptop){
     console.log(penyebut)
-}
+};

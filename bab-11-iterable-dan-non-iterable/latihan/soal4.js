@@ -5,4 +5,4 @@ for(let nilaiPelajaran of nilai){
     total += nilaiPelajaran
 };
 
-console.log("Total nilai    :",total)
+console.log("Total nilai    :",total);

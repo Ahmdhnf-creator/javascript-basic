@@ -8,5 +8,5 @@ const biodata = {
 console.log("====== BIODATA ======")
 for (let penyebut in biodata){
         console.log(penyebut + "  :" + biodata[penyebut])
-}
-console.log("======================")
+};
+console.log("======================");

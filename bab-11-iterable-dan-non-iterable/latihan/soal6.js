@@ -6,4 +6,4 @@ const siswa = {
 
 for (let key in siswa){
     console.log(key + ":" + siswa[key])
-}
+};

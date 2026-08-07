@@ -7,6 +7,6 @@ for (let nilaiPelajaran of nilai){
 
 
 let rataRata = jumlahNilai / nilai.length
-console.log("Jumlah nilai siswa     :",jumlahNilai)
-console.log("Rata-rata nilai siswa  :",rataRata)
+console.log("Jumlah nilai siswa     :",jumlahNilai);
+console.log("Rata-rata nilai siswa  :",rataRata);
 
