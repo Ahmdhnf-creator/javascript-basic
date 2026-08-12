@@ -651,11 +651,16 @@ console.log("Jumlah item:", keranjang.jumlahItem());
 Output:
 
 Jumlah item: 1
+
+```
+
 💼 Study Case 2 - Sistem Login & Session
 
 Sebuah aplikasi membutuhkan sistem login sederhana.
 
 Buat sebuah fungsi:
+
+```javascript
 
 buatSession(username)
 
@@ -705,6 +710,9 @@ console.log(session.isLogin);
 Hasil:
 
 undefined
+
+```
+
 
 ---
 
