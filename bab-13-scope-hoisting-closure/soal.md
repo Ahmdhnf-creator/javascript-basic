@@ -637,7 +637,7 @@ Hasil:
 
 Gunakan konsep **Closure** agar method di dalam `buatKeranjang()` tetap dapat mengakses data keranjang.
 
-### 🚀 Tantangan
+### Selanjutnya
 
 Tambahkan method:
 
@@ -709,6 +709,30 @@ Hasil:
     undefined
 
 Perubahan status login hanya boleh dilakukan melalui method yang telah dibuat.
+
+### Selanjutnya
+
+Buat dua session:
+
+    const sessionBudi = buatSession("budi123");
+    const sessionAni = buatSession("ani456");
+
+Kemudian jalankan:
+
+    sessionBudi.logout();
+
+    sessionBudi.cekStatus();
+    sessionAni.cekStatus();
+
+Output yang diharapkan:
+
+    User: budi123
+    Status: Logout
+
+    User: ani456
+    Status: Login
+
+Pastikan logout pada `sessionBudi` **tidak membuat `sessionAni` ikut logout**.
 
 
 
