@@ -11,3 +11,8 @@ const profilBaru = {...pengguna,
 };
 
 console.log(profilBaru);
+
+const {nama,email,status}=profilBaru
+console.log("Nama   :",nama);
+console.log("Email  :",email);
+console.log("Status :",status);
