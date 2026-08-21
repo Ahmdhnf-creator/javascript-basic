@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.kelompok1 {
+  background-color: rgb(253, 253, 253);
+  width: 850px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin: 20px 0px 0px 320px;
+  padding: 50px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+.imgntks {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+.imgntks img {
+  width: 285px;
+  height: fit-content;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.tksimg {
+  margin-left: 15px;
+}
+.judulfilm {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.tks1 {
+  color: rgba(0, 0, 0, 0.418);
+  font-size: 15px;
+}
+.tks2 {
+  margin: 4px 0px;
+  color: rgba(0, 0, 0, 0.418);
+  font-size: 15px;
+}
+.tks3 {
+  color: rgba(0, 0, 0, 0.418);
+  font-size: 15px;
+}
+.formnama {
+  margin-top: 15px;
+}
+input[type="text"],
+input[type="email"],
+input[type="location"] {
+  width: 100%;
+  padding: 11px 13px;
+  font-size: 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 9px;
+  outline: none;
+  background-color: #fafafa;
+}
+label {
+  display: block;
+  margin: 0 0 7px 3px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+.char-count {
+  margin: 5px 0px 15px 5px;
+  color: rgba(0, 0, 0, 0.418);
+  font-size: 13px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+.button-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background-color 0.25s ease;
+}
+
+.btn-primary {
+  background-color: #111;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  background-color: #222;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
+.btn-secondary {
+  background-color: #f1f1f1;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.btn-secondary:hover {
+  transform: translateY(-3px);
+  background-color: #e7e7e7;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* kelompok2 */
+
+.kelompok2 {
+  background-color: rgb(252, 252, 252);
+  width: 850px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin: 20px 0px 0px 320px;
+  padding: 20px 50px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.kelompok2 h1{
+    font-size: 25px;
+}
+.daftar {
+  margin-top: 25px;
+}
+.daftar p {
+  margin: 5px 0;
+}
+.pesanan {
+  padding: 20px;
+  margin-top: 15px;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  background-color: #fafafa;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.pesanan p {
+  margin: 5px 0;
+  text-align: left;
+}
+
+.pesanan button {
+  margin-top: 12px;
+  padding: 7px 14px;
+  border: none;
+  border-radius: 7px;
+  background-color: #111;
+  color: white;
+  cursor: pointer;
+}
+
+.pesanan button:hover {
+  background-color: #333;
+}
