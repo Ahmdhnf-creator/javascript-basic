@@ -178,7 +178,7 @@ muatTema();
 
 // Saat pengguna mengganti tema
 document.getElementById("tombol-tema").addEventListener("click", () => {
-  const temaSaat ini = localStorage.getItem("tema") || "terang";
+  const temaSekarang = localStorage.getItem("tema") || "terang";
   simpanTema(temaSekarang === "terang" ? "gelap" : "terang");
 });
 ```
@@ -302,7 +302,7 @@ history.back();
 
 // Navigasi maju (sama seperti tombol Forward)
 history.forward();
-
+r
 // Navigasi ke entri tertentu (negatif = mundur, positif = maju)
 history.go(-2); // Mundur 2 langkah
 history.go(1); // Maju 1 langkah
