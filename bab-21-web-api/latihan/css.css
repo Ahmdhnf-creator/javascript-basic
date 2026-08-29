@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #eef1f6;
+  color: #1f2937;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+h1 {
+  max-width: 1100px;
+  margin: 0 auto 25px;
+  font-size: 32px;
+}
+
+#tema {
+  display: inline-block;
+  padding: 12px 20px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  background: #334155;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#tambah {
+  display: inline-block;
+  padding: 12px 20px;
+  margin-bottom: 15px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 10px;
+  background: #334155;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#formTambah {
+  display: none;
+  max-width: 1100px;
+  margin: 0 auto 25px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+}
+
+#formTambah input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+#simpanUser,
+#batalUser {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#simpanUser {
+  background: #334155;
+  color: white;
+}
+
+#batalUser {
+  background: #e2e8f0;
+  color: #1f2937;
+}
+
+#cari {
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 35px;
+  padding: 15px 18px;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  background: white;
+  color: #1f2937;
+  font-size: 15px;
+  outline: none;
+}
+
+#loading {
+  text-align: center;
+  margin: 30px 0;
+  color: #64748b;
+}
+
+#error {
+  text-align: center;
+  margin: 20px 0;
+  color: #ef4444;
+  font-weight: bold;
+}
+
+#user {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card {
+  position: relative;
+  background: white;
+  padding: 28px;
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.card h2 {
+  margin-bottom: 18px;
+  padding-right: 40px;
+  font-size: 20px;
+  color: #111827;
+}
+
+.card p {
+  margin: 10px 0;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.favorit {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 50%;
+  background: #f1f5f9;
+  color: #f59e0b;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.hapus,
+.edit {
+  margin-right: 5px;
+  margin-bottom: 15px;
+  border: none;
+  padding: 7px 12px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.hapus {
+  background: #334155;
+}
+
+.edit {
+  background: #64748b;
+}
+
+#detail {
+  display: none;
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+#kembali {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #111827;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#detailuser {
+  margin-top: 20px;
+  padding: 35px;
+  background: white;
+  border-radius: 20px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+#detailuser h2 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #111827;
+}
+
+#detailuser p {
+  margin: 15px 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #64748b;
+  line-height: 1.6;
+}
+
+#detailuser strong {
+  color: #111827;
+}
+
+body.gelap {
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+body.gelap #tema,
+body.gelap #tambah {
+  background: #f8fafc;
+  color: #111827;
+}
+
+body.gelap #cari {
+  background: #1e293b;
+  color: white;
+  border-color: #334155;
+}
+
+body.gelap #cari::placeholder {
+  color: #94a3b8;
+}
+
+body.gelap #formTambah {
+  background: #1e293b;
+}
+
+body.gelap #formTambah input {
+  background: #334155;
+  color: white;
+  border-color: #475569;
+}
+
+body.gelap .card {
+  background: #1e293b;
+  border-color: #334155;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+body.gelap .card h2 {
+  color: white;
+}
+
+body.gelap .card p {
+  color: #94a3b8;
+}
+
+body.gelap .favorit {
+  background: #334155;
+  color: #fbbf24;
+}
+
+body.gelap #detailuser {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+body.gelap #detailuser h2 {
+  color: white;
+}
+
+body.gelap #detailuser p {
+  color: #94a3b8;
+  border-color: #334155;
+}
+
+body.gelap #detailuser strong {
+  color: white;
+}

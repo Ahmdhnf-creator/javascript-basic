@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Kasir Sederhana</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <header class="header">
+      <h1>Kasir Sederhana</h1>
+      <p>Sistem kasir berbasis Modular JavaScript</p>
+    </header>
+
+    <section class="card">
+      <h2>Daftar Produk</h2>
+
+      <ul class="daftarproduk"></ul>
+    </section>
+
+    <section class="card">
+      <h2>Struk Transaksi</h2>
+
+      <div class="struk">
+        <div class="struk-row">
+          <span>Produk</span>
+          <strong id="nama-produk"></strong>
+        </div>
+
+        <div class="struk-row">
+          <span>Harga</span>
+          <strong id="harga-produk"></strong>
+        </div>
+
+        <div class="struk-row">
+          <span>Jumlah</span>
+          <strong id="jumlah-produk"></strong>
+        </div>
+
+        <div class="struk-row subtotal">
+          <span>Subtotal</span>
+          <strong id="subtotal-produk"></strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="card total-card">
+      <h2>Total Transaksi</h2>
+
+      <div class="total">
+        <span>Total Pembayaran</span>
+        <strong id="total-transaksi"></strong>
+      </div>
+    </section>
+
+  </main>
+
+  <script type="module" src="./js/app.js"></script>
+
+</body>
+</html>

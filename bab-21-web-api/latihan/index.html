@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>User Dashboard</title>
+
+    <link rel="stylesheet" href="css.css" />
+  </head>
+
+  <body>
+    <h1>User Dashboard</h1>
+
+    <button id="tema">gelap</button>
+
+    <button id="tambah">Tambah User</button>
+
+    <div id="formTambah">
+      <input type="text" id="namaBaru" placeholder="Nama pengguna" />
+
+      <input type="email" id="emailBaru" placeholder="Email pengguna" />
+
+      <button id="simpanUser">Simpan</button>
+
+      <button id="batalUser">Batal</button>
+    </div>
+
+    <input type="text" id="cari" placeholder="Cari pengguna..." />
+
+    <p id="loading">Memuat data...</p>
+
+    <p id="error"></p>
+
+    <div id="user"></div>
+
+    <div id="detail">
+      <button id="kembali">← Kembali</button>
+
+      <div id="detailuser"></div>
+    </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>

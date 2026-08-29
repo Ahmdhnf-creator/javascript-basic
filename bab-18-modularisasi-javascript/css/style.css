@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+}
+
+.header p {
+  margin: 0;
+  color: #64748b;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 24px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+/* DAFTAR PRODUK */
+.daftarproduk {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.daftarproduk li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+/* NOMOR PRODUK */
+.nomor {
+.nomor {
+  margin-right: 8px;
+  font-weight: bold;
+}
+}
+
+/* STRUK */
+.struk {
+  padding: 5px 0;
+}
+
+.struk-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 13px 0;
+}
+
+.struk-row span {
+  color: #64748b;
+}
+
+.struk-row strong {
+  color: #1e293b;
+}
+
+.subtotal {
+  margin-top: 5px;
+}
+
+.subtotal strong {
+  font-size: 18px;
+}
+
+/* TOTAL */
+.total-card {
+  background: #1e293b;
+  color: white;
+}
+
+.total-card h2 {
+  color: white;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.total span {
+  color: #cbd5e1;
+}
+
+.total strong {
+  font-size: 24px;
+}
